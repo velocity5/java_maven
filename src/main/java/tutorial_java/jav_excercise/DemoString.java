@@ -53,11 +53,7 @@ class DemoString {
     //				}
     //			}
     String regMa = "[A-Z]{5}";
-    //		System.out.println("Moi nhap pass: ");
-    //		String pass = sc.nextLine();
     String regPass = "^[a-zA-Z]{7}$";
-    //		System.out.println("Moi nhap ten nhan vien: ");
-    //		String name = sc.nextLine();
     String regName = "[a-zA-Z]+";
     boolean validMaNV = false;
     boolean validPass = false;
