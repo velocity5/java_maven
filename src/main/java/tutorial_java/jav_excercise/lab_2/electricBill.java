@@ -13,10 +13,10 @@ public class electricBill {
 		int eMoney;
 		if (eNum <= 50) {
 			eMoney = eNum * 1000;
-			System.out.println(eMoney);
+			System.out.println("Electric bill is: " + eMoney);
 		} else {
 			eMoney = 50 * 1000 + (eNum - 50) * 1200;
-			System.out.println(eMoney);
+			System.out.println("Electric bill is: " + eMoney);
 		}
 	}
 }

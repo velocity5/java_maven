@@ -6,35 +6,27 @@ public class menuGoibai {
 	public static void main(String[] args) {
 		menuGoibai mb = new menuGoibai();
 		mb.menu();
-		ptb1.tinhToan(4,3);
-//		electricBill.tinhTien(100);
-	}
-	void ptb1(){
-		new ptb1();
-	}
-	void tienDien(){
-		new electricBill();
 	}
 	public void menu(){
 		System.out.println("====================================");
-		System.out.println("Moi lua chon chuc nang tu 1-3:");
-		System.out.println("1. Tinh PT bac 1");
-		System.out.println("2. Tinh tien dien");
-		System.out.println("3. Ket thuc");
+		System.out.println("Pls select a function from 1-3:");
+		System.out.println("1. Linear Equation");
+		System.out.println("2. Electricity Money Counting");
+		System.out.println("3. Quit");
 		System.out.println("====================================");
 		Scanner sc = new Scanner(System.in);
 		int ans = sc.nextInt();
 		switch (ans){
 			case 1:
-				System.out.println("1. Giai PT bac 1");
-				ptb1();
+				System.out.println("1. Calculating the equation...");
+				ptb1.tinhToan(0,0);
 				break;
 			case 2:
-				System.out.println("2. Tinh tien dien");
-				tienDien();
+				System.out.println("2. Calculating the bill...");
+				electricBill.tinhTien(50);
 				break;
 			case 3:
-				System.out.println("3. Ket thuc");
+				System.out.println("Shutting down...");
 				System.exit(0);
 				break;
 		}
