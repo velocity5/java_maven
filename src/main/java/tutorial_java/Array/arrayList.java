@@ -5,11 +5,9 @@ Co 2 lop collection:
  - HashMap: Cho phep luu tru cac cap (key,value) va tim kiem gia tri bang key.
  - Khai bao: ArrayList<Type>listName = new ArrayList<>(); Type: Dung Wrapper Class
  */
-package tutorial_java;
+package tutorial_java.Array;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
 public class arrayList {
     public static void main(String[] args) {

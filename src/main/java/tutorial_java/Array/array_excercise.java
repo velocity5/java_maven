@@ -1,9 +1,8 @@
-package tutorial_java;
+package tutorial_java.Array;
 
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
-import java.util.stream.IntStream;
 
 public class array_excercise {
     public static void main(String[] args) {

@@ -13,9 +13,11 @@ n la int:
 - Viet chuong trinh in so lon thu 2 va so nho thu 2 trng lst
 - In ra index
  */
-package tutorial_java;
+package tutorial_java.Array;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class arrayLst_Excercise {
 	public static void main(String[] args) {

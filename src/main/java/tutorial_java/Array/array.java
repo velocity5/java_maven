@@ -3,10 +3,7 @@ Tap hop cac doi tuong co the cung hoac khac kieu du lieu. Co kich thuoc co dinh.
 dau tu 0.
 Khai bao: Data_types[]<array_name> = new Data_types[]{vl1,vl2,vl3,...}
  */
-package tutorial_java;
-
-import java.util.Arrays;
-import java.util.Scanner;
+package tutorial_java.Array;
 
 public class array {
     public static void main(String[] args) {
