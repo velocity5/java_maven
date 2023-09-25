@@ -1,31 +1,33 @@
 package tutorial_java;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class daoNguocPhanTu {
 	public static void main(String[] args) {
-		int mangN, i = 0, j = 0, temp;
-		int number[] = new int[100];
+		int counter, i,j,temp;
+		int num[] = new int[100];
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Nhap so phan tu mang: ");
-		mangN = sc.nextInt();
-		for (i = 0; i < mangN; i++){
-			System.out.println("Phan tu " + (i+1)+": ");
-			number[i] = sc.nextInt();
+		System.out.println("Pls enter a list of number: ");
+		counter = sc.nextInt();
+		for (i = 0; i < counter; i++){
+			System.out.println("Element " + (i+1)+ ": ");
+			num[i] = sc.nextInt();
 		}
 		j = i - 1;
-		i=0;
+		i = 0;
 		sc.close();
 		while (i<j){
-			temp = number[i];
-			number[i] = number[j];
-			number[j] = temp;
+			temp = num[i];
+			num[i] = num[j];
+			num[j] = temp;
 			i++;
 			j--;
 		}
-		System.out.println("Mang dao nguoc la: ");
-		for (i=0;i<mangN;i++){
-			System.out.println(number[i] + " ");
+		System.out.println("Reverse array: ");
+		for (i=0; i<counter;i++){
+			System.out.println(num[i] + " ");
 		}
 	}
 }

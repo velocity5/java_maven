@@ -44,7 +44,7 @@ public class ListSV {
 	}
 		public static ArrayList<String> inputSV(Scanner sc){
 			ArrayList<String> nameSV = new ArrayList<>();
-			System.out.println("Moi nhap ten sinh vien (type x to exit): ");
+			System.out.println("Moi nhap ten sinh vien (nhap x de thoat): ");
 			while (true){
 				String input = sc.nextLine();
 
