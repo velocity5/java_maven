@@ -16,42 +16,7 @@ class DemoString {
 
   static void infoUser_Minh() {
     Scanner sc = new Scanner(System.in);
-    //		System.out.println("Pls enter a username: ");
-    //		String s = sc.next();
-    //		System.out.println("Pls enter a password: ");
-    //		String p = sc.next();
-    //		if (s.equalsIgnoreCase("hello") && p.length()>=6){
-    //			System.out.println("Access granted!");
-    //		} else
-    //			System.out.println("Access denied!");
-    //		String[] s = new String[]{"Nguyen Van Tuan", "Tran Huy Minh", "Nguyen My Hanh", "Le My Tho"};
-    //		for (int i = 0; i < s.length; i++) {
-    //			if (s[i].startsWith("Nguyen") || s[i].endsWith("Tuan"))
-    //				System.out.println(s[i].toUpperCase());
-    //			if (s[i].contains("My")){
-    //				int lastId = s[i].lastIndexOf(" ");
-    //				System.out.println(s[i].substring(lastId + 1));
-    //			}
-    //		System.out.println("Pls enter some content: ");
-    //		String content = sc.nextLine();
-    //		System.out.println("Pls enter word to find: ");
-    //		String find = sc.nextLine();
-    //		System.out.println("Pls enter replace content: ");
-    //		String replace = sc.nextLine();
-    //		if (content.contains(find)) {
-    //			System.out.println("New string is: " + content.replace(find,replace));
-    //		} else
-    //			System.out.println("Content does not contain that word!");
-    //		System.out.println("Pls enter some number: ");
-    //		String someNumb = sc.next();
-    //		String[] stringNumb = someNumb.split(",");
-    //
-    //		for (String numb : stringNumb){
-    //			int x = Integer.parseInt(numb);
-    //			if (x%2==0){
-    //				System.out.println(x + " is even");
-    //				}
-    //			}
+
     String regMa = "[A-Z]{5}";
     String regPass = "^[a-zA-Z]{7}$";
     String regName = "[a-zA-Z]+";
@@ -73,7 +38,7 @@ class DemoString {
       } else
         validMaNV = true;
       if (!pass.matches(regPass)) {
-        System.out.println("Mk can it nhat 7 ky tu bao gom chu hoa va chu thuong.");
+        System.out.println("Mk can it nhat 7 ky tu chi bao gom chu hoa va chu thuong.");
       } else
         validPass = true;
       if (!name.matches(regName)) {
@@ -110,7 +75,7 @@ class DemoString {
       System.out.println("Moi nhap pass ");
       pass = scanner.nextLine();
       if (!pass.matches(regPass)) {
-        System.out.println("Mk can it nhat 7 ky tu bao gom chu hoa va chu thuong.");
+        System.out.println("Mk can it nhat 7 ky tu chi bao gom chu hoa va chu thuong.");
       } else {
         validPass = false;
       }
@@ -136,7 +101,7 @@ class DemoString {
 
   void infoUser_Minh_fix() {
     Scanner scanner = new Scanner(System.in);
-    Boolean flag = true;
+    boolean flag = true;
     while (flag) {
       System.out.println("=====================================================================================");
       System.out.println("NHAP THONG TIN NHAN VIEN");

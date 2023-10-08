@@ -1,0 +1,3 @@
+Name: Minh Tran, Age: 23, Salary: 10.0
+Name: Kien Tran, Age: 27, Salary: 15.0
+Name: Quy Tran, Age: 36, Salary: 25.0
